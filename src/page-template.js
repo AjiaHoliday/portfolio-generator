@@ -5,7 +5,7 @@ const generateAbout = aboutText => {
   }
   return `
     <section class="my-3" id="about">
-      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2
+      <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h>
       <p>${aboutText}</p>
     </section>
     `;
@@ -71,7 +71,7 @@ module.exports = templateData => {
     <title>Portfolio Demo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./dist/style.css">
   </head>
   
   <body>
